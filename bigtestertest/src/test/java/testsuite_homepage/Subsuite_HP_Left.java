@@ -29,4 +29,8 @@ public class Subsuite_HP_Left {
 		System.out.println("before method");
 	}
 
+  @Test (dependsOnMethods="abc")
+ 	private static void printBeforeMethod1() {
+ 		System.out.println("before method");
+ 	}
 }
